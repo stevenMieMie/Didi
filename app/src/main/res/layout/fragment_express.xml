@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.amap.api.maps.MapView>
+
+    <TextView
+        android:id="@+id/tv_start"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        android:text="正在获取上车地点"/>
+
+</FrameLayout>

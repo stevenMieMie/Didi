@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Didi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="share">行程</string>
+    <string name="fuli">钱包</string>
+    <string name="collection">客服</string>
+    <string name="download">设置</string>
+</resources>

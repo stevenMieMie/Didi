@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="progressbar_circle">
+        <item name="android:indeterminateDrawable">@drawable/progressbar_circle</item>
+        <item name="android:minWidth">40dp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:maxWidth">120dp</item>
+        <item name="android:maxHeight">120dp</item>
+    </style>
+
+    <style name="loading_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>       <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowBackground">@drawable/dialog_toast_bg</item> <!-- 设置dialog的背景 -->
+        <item name="android:windowNoTitle">true</item>      <!-- 是否显示title -->
+        <item name="android:windowIsTranslucent">false</item>    <!-- 是否半透明 -->
+        <item name="android:windowIsFloating">true</item>       <!-- 是否浮现在activity之上 -->
+        <item name="android:windowContentOverlay">@null</item><!--也是个drawable，定义contentoverlay的背景-->
+        <item name="android:backgroundDimEnabled">false</item>  <!-- 背景是否模糊显示 -->
+    </style>
+
+    <style name="MenuStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginRight">80dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
