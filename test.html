@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>URL open app</title>
+		<script>
+		var x=document.getElementById("demo");
+		function getLocation() {
+		  if (navigator.geolocation){   //检测是否支持地理定位
+		  		navigator.geolocation.getCurrentPosition(showPosition);
+		    } else{
+		    		x.innerHTML="Geolocation is not supported by this browser.";
+		    	      }
+		  }
+		function showPosition(position) {
+		  x.innerHTML="Latitude: " + position.coords.latitude +
+		  "<br />Longitude: " + position.coords.longitude;
+		  }
+		</script>
+	</head>
+	<body>
+		<button onClick="javascript:getLocation()">location</button>
+	</body>
+</html>
